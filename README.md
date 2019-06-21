@@ -1,2 +1,2 @@
-# ethp
-ETHPcoin
+# Med Chain
+Med Chain
