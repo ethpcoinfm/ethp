@@ -1,6 +1,6 @@
 pragma solidity ^0.4.23;
 
-contract CoinEthp // @eachvar
+contract CoinMED // @eachvar
 {
     // ======== 初始化代币相关逻辑 ==============
     // 地址信息
@@ -11,8 +11,8 @@ contract CoinEthp // @eachvar
     mapping(address => uint256) balances;
     
     // solidity 会自动为 public 变量添加方法，有了下边这些变量，就能获得代币的基本信息了
-    string public name = "Ethernet protocol"; // @eachvar
-    string public symbol = "ETHP"; // @eachvar
+    string public name = "Med Chain"; // @eachvar
+    string public symbol = "Med"; // @eachvar
     uint8 public decimals = 18; // @eachvar
     uint256 initSupply = 210000000; // @eachvar
     uint256 public totalSupply = 0; // @eachvar
